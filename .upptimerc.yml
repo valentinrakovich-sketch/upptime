@@ -1,31 +1,31 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: valentinrakovich-sketch
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: specialty.ru
+    url: https://specialty.ru/
+  - name: aremde.ru
+    url: https://aremde.ru/
+  - name: brand-rise.ru
+    url: https://brand-rise.ru/
+  - name: wigomat.pro
+    url: https://wigomat.pro/
+    # сайт пока закрыт паролем: 401 = сервер жив
+    expectedStatusCodes:
+      - 200
+      - 401
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /upptime
+  name: Статус сайтов Спешалти
+  introTitle: "Доступность сайтов компании"
+  introMessage: Проверка каждые 5 минут через GitHub Actions.
   navbar:
-    - title: Status
+    - title: Статус
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Уведомления в Telegram включаются секретами репозитория:
+# NOTIFICATION_TELEGRAM=true, NOTIFICATION_TELEGRAM_BOT_KEY, NOTIFICATION_TELEGRAM_CHAT_ID
+# Настройки: https://upptime.js.org/docs/configuration
