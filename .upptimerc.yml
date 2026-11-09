@@ -3,7 +3,8 @@ repo: upptime
 
 sites:
   - name: specialty.ru
-    url: https://specialty.ru/
+    url: https://specialty.ru/robots.txt
+    # robots.txt отдаёт nginx без Битрикса: не создаёт гостей в статистике и сессий
   - name: aremde.ru
     url: https://aremde.ru/
   - name: brand-rise.ru
