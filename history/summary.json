@@ -22,18 +22,20 @@
     "url": "https://aremde.ru/",
     "icon": "https://icons.duckduckgo.com/ip3/aremde.ru.ico",
     "slug": "aremde-ru",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1352,
-    "timeDay": 1341,
-    "timeWeek": 1352,
-    "timeMonth": 1352,
-    "timeYear": 1352,
-    "dailyMinutesDown": {}
+    "time": 1214,
+    "timeDay": 1116,
+    "timeWeek": 1214,
+    "timeMonth": 1214,
+    "timeYear": 1214,
+    "dailyMinutesDown": {
+      "2026-11-10": 0
+    }
   },
   {
     "name": "brand-rise.ru",
