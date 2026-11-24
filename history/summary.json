@@ -23,11 +23,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/aremde.ru.ico",
     "slug": "aremde-ru",
     "status": "up",
-    "uptime": "92.30%",
+    "uptime": "92.54%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "92.30%",
-    "uptimeYear": "92.30%",
+    "uptimeMonth": "92.54%",
+    "uptimeYear": "92.54%",
     "time": 1430,
     "timeDay": 1119,
     "timeWeek": 1509,
@@ -43,9 +43,9 @@
     "url": "https://brand-rise.ru/",
     "icon": "https://icons.duckduckgo.com/ip3/brand-rise.ru.ico",
     "slug": "brand-rise-ru",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -54,7 +54,9 @@
     "timeWeek": 1082,
     "timeMonth": 1114,
     "timeYear": 1114,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-24": 0
+    }
   },
   {
     "name": "wigomat.pro",
